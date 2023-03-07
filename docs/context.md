@@ -7,8 +7,6 @@ O projeto nasceu da dificuldade encontrada na doações de alimentos, roupas e o
 Da mesma forma que instituições e organizações não governamentais que necessitam dessas doações para manterem seu funcionamento mas nem sempre podem contar com uma divulgação efetiva, e por isso, precisam de mais visibilidade. 
 
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
 
 ## Objetivos
 

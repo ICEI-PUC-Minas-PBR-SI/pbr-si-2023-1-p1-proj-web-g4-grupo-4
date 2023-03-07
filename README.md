@@ -7,19 +7,21 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Uma aplicação web desenvolvida com intuito de otimizar o processo de procura por instituições, organizações não governamentais e ações voltadas para sustentabilidade e doações de acordo com sua necessidade. Assim como, viabilizar o recebimento dessas doações para as mesmas.  
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
+* Ana Clara Vieira Rodrigues
+* Maísa Fernanda Silva Sá
+* Marcela Vitória de Oliveira
+* Jennifer Caroline Castro Silva
+* Diogo Evagelista Pacheco
+* Gabriel Hiury Pereira Bernando
+* Gabriel Fernandes Nascimento
 
 ## Orientador
 
-* Nome completo do professor 1
+* Cristiano Geraldo Texeira Silva
 
 # Planejamento
 

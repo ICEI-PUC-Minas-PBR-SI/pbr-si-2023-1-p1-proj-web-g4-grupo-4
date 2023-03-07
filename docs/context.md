@@ -3,8 +3,8 @@
 Uma aplicação web desenvolvida com intuito de otimizar o processo de procura por instituições, organizações não governamentais e ações voltadas para sustentabilidade e doações de acordo com sua necessidade. Assim como, viabilizar o recebimento dessas doações para as mesmas.
 
 ## Problema
-O projeto nasceu da dificuldade encontrada na doações de alimentos, roupas e objetos e no descarte de materiais de maneira sustentável, já que muitas pessoas possuem interesse em realizar essas ações mas não sabem onde existem locais ou pessoas próximas que necessitam disso, além de possuirem uma rotina corrida e estarem cada vez mais imediatistas, carecendo de informações rápidas e seguras.
-Da mesma forma que instituições e organizações não governamentais que necessitam dessas doações para manterem seu funcionamento mas nem sempre podem contar com uma divulgação efetiva, e por isso, precisam de mais visibilidade. 
+O projeto nasceu da dificuldade encontrada na doações de alimentos, roupas, objetos e no descarte de materiais de maneira sustentável, já que muitas pessoas possuem interesse em realizar essas ações mas não sabem onde existem locais ou pessoas próximas que necessitam disso, além de possuirem uma rotina corrida e estarem cada vez mais imediatistas, carecendo de informações rápidas e seguras.
+Da mesma forma que instituições e organizações não governamentais necessitam dessas doações para manterem seu funcionamento, mas nem sempre podem contar com uma divulgação efetiva, e por isso, precisam de mais visibilidade. 
 
 
 

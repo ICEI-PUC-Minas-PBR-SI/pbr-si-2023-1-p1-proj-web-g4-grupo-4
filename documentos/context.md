@@ -8,14 +8,12 @@ Da mesma forma que instituições e organizações não governamentais necessita
 
 
 
-## Objetivos
+#
+Objetivo
+O objetivo geral do projeto é facilitar o processo de doação e recebimento das mesmas, auxiliar instituições e pessoas físicas com  prestações de serções  
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+
 
 ## Justificativa
 

@@ -9,10 +9,7 @@ Da mesma forma que instituições e organizações não governamentais necessita
 
 
 ## Objetivo
-O objetivo geral do projeto é facilitar o processo de doação e recebimento das mesmas, auxiliar instituições e pessoas físicas com  prestações de serções  
-
-
-
+O objetivo geral do projeto é auxiliar instituições e pessoas físicas com as doações e prestações de serviços. Essas instituições podem ser asilos, organizações não governamentais que trabalham em prol de animais, pessoas com doenças, dependentes químicos e moradores de rua, entre outros. Pensando em sustentabilidade e descarte correto de determinados materiais, a ideia é facilitar a busca de locais em que esse descarte pode ser feito de maneira adequada a não prejudicar o meio ambiente, além de ajudar na reciclagem dos mesmos. O foco principal é promover visibilidade a essas instituições, incentivo e aumento de doações, além de contribuir com a preservação do meio ambiente, promovendo a sustentabilidade.
 
 ## Justificativa
 

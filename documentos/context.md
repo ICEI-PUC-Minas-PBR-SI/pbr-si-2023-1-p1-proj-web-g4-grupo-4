@@ -8,8 +8,7 @@ Da mesma forma que instituições e organizações não governamentais necessita
 
 
 
-#
-Objetivo
+## Objetivo
 O objetivo geral do projeto é facilitar o processo de doação e recebimento das mesmas, auxiliar instituições e pessoas físicas com  prestações de serções  
 
 

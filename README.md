@@ -18,11 +18,10 @@ Uma aplicação web desenvolvida com intuito de otimizar o processo de procura p
 * Diogo Evagelista Pacheco
 * Gabriel Hiury Pereira Bernando
 * Gabriel Fernandes Nascimento
-* Ana Clara Vieira Rodrigues
 
 ## Orientador
 
-* Cristiano Geraldo Texeira Silva
+* Cristiano Geraldo Teixeira Silva
 
 # Planejamento
 

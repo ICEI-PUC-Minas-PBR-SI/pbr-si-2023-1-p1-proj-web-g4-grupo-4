@@ -18,6 +18,8 @@ Uma aplicação web desenvolvida com intuito de otimizar o processo de procura p
 * Diogo Evagelista Pacheco
 * Gabriel Hiury Pereira Bernando
 * Gabriel Fernandes Nascimento
+* Álefe de Amelda Sousa
+* Arthur Eduardo da Silva Marins
 
 ## Orientador
 

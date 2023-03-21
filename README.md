@@ -1,5 +1,5 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10314287&assignment_repo_type=AssignmentRepo)
-# Título do Projeto
+# Lume
 
 `CURSO: Sistemas de Informação`
 
@@ -18,7 +18,7 @@ Uma aplicação web desenvolvida com intuito de otimizar o processo de procura p
 * Diogo Evagelista Pacheco
 * Gabriel Hiury Pereira Bernando
 * Gabriel Fernandes Nascimento
-* Álefe de Amelda Sousa
+* Álefe de Almeida Sousa
 * Arthur Eduardo da Silva Marins
 
 ## Orientador

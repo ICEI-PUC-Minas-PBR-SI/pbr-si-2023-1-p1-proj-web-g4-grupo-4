@@ -12,14 +12,7 @@ Da mesma forma que instituições e organizações não governamentais necessita
 O objetivo geral do projeto é auxiliar instituições e pessoas físicas com as doações e prestações de serviços. Essas instituições podem ser asilos, organizações não governamentais que trabalham em prol de animais, pessoas com doenças, dependentes químicos e moradores de rua, entre outros. Pensando em sustentabilidade e descarte correto de determinados materiais, a ideia é facilitar a busca de locais em que esse descarte pode ser feito de maneira adequada a não prejudicar o meio ambiente, além de ajudar na reciclagem dos mesmos. O foco principal é promover visibilidade a essas instituições, incentivo e aumento de doações, além de contribuir com a preservação do meio ambiente, promovendo a sustentabilidade.
 
 ## Justificativa
-O que motivou o desenvolvimento desse projeto foi a carência do amparo à sociedade que está cada dia mais necessitada.
-
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+O que motivou o desenvolvimento desse projeto foi a carência do amparo à sociedade que está cada dia mais necessitada. Portanto, a partir da observação da problemática, surgiu a ideia de unir a demanda com aqueles que estavam dispostos a supri-la.
 
 ## Público-Alvo
 

@@ -46,31 +46,28 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA |  |
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA | |
+|RF-001| A aplicação permitirá a criação de usário. | ALTA |  |
+|RF-002| Permitir o cadastro de instituições e ONG's| ALTA | |
+|RF-003| Aba com apresentação do projeto | ALTA | |
+|RF-004| Divisão de abas por tipo de associação | MÉDIA | |
+|RF-005| O usuário poderá avaliar sua experiência dentro da aplicação| MÉDIA | |
+|RF-006| Envio de confirmação de email | BAIXA | |
+|RF-007| Aba para buscas de organizações | BAIXA | |
 
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|ID     | Requisito | Descrição do Requisito  |Prioridade |
+|-------|----|-------------------------|----|
+|RNF-001| Desempenho do sistema: | Será capaz de processar vários acessos simuntaneos tendo um tempo bom tempo de resposta. | ALTA |  
+|RNF-002| Segurança: | Terá todo acesso dos usuários confidencial que poderá identificar e bloquear usuarios com falsas intenções. |  ALTA | 
+|RNF-003| Confiabilidade: | Empresas que tenham como objetivo obter lucro ao inves de ajudar os necessitados não irão ser divulgadas. | ALTA |
+|RNF-004| Manutenção: | Durante atualizações o sistema vai manter seu funcionamento, atualizações serão feitas sem desastabilizar o funcionamento. | ALTA |
+|RNF-005| Requisitos éticos: | Apresenta instituições que que estão precisando de divulgação, sem expor condições reais de pessoas fisicas que estão em situação precaria. | ALTA |
+|RNF-006| Portabilidade: | O sistema irá ser responsivo podendo ser utilizado em qualquer dispositivo. | ALTA |
+|RNF-007| Confiabilidade de dados: | Para qualquer perda de informação o sistema o sistema terá a capacidade de recuperar seus dados. | ALTA |
+|RNF-008| Usabilidade: | Vai contar com um sistema interativo para utilização, sem ser necessário treinamento ou tempo de experiência. | BAIXA |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 

@@ -73,7 +73,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                                                |
+|ID| Restrições                                                               |
 |--|--------------------------------------------------------------------------|
 |01| Não pode ser menor de 18 anos.                                           |
 |02| Somente instituições de Belo Horizonte e região.                         |
@@ -83,6 +83,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |06| As instituições devem apresentar restrições para controle de qualidade.  |
 
 
-> /***Links Úteis**:
+> **Links Úteis**:
 > - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)*/
+> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)

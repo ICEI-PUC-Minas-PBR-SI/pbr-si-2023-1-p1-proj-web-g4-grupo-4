@@ -73,14 +73,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|ID| Restrição                                                                |
+|--|--------------------------------------------------------------------------|
+|01| Não pode ser menor de 18 anos.                                           |
+|02| Somente instituições de Belo Horizonte e região.                         |
+|03| O doador deve possuir uma renda mensal superior a dois salários mínimos. |
+|04| Os utensílios doados devem estar em boas condições.                      |
+|05| O doador deve ter disponibilidade de se locomover até a instituição.     |
+|06| As instituições devem apresentar restrições para controle de qualidade.  |
 
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
+> /***Links Úteis**:
 > - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)*/

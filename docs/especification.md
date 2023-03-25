@@ -19,11 +19,10 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Ricardo Alves, usuário do sistema  | Criar uma conta na Lume | Conseguir ter acesso as ONGs com mais rapidez e facilidade otimizando seu tempo|
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|ONG que tem foco em ajudar pessoas carentes   | Se cadastradar na Lume e colocar sua localização  | Aparecerem para as pessoas que procuram esse tipo de doação e, assim, ganhar mais visibilidade e conseguentemente aumentar o recebimento de doações |
 |Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)

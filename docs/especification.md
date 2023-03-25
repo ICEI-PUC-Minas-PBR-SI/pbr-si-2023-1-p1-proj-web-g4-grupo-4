@@ -18,7 +18,7 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Ricardo Alves       | Criar uma conta na Lume            | Conseguir ter acesso as ONGs com mais rapidez |
+|Ricardo Alves, usuário do sistema  | Criar uma conta na Lume | Conseguir ter acesso as ONGs com mais rapidez e facilidade otimizando seu tempo|
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 |Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |

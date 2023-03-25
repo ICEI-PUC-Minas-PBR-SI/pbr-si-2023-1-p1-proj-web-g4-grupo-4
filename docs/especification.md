@@ -11,17 +11,6 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 2- Ronaldo Neves tem 44 anos, fundador de uma empresa de tecnologia. Como sua empresa vem crescendo cada vez mais, ele resolveu abrir uma filial em Belo Horizonte, com um grande número de atendimentos acabou-se gerando um grande número de lixo eletrônico. Como Ronaldo sempre teve uma preocupação especial com o meio ambiente, mas como não conhece a região, ele está em busca de meios para realizar o descarte correto desses materiais.
 
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 ## Histórias de Usuários
 

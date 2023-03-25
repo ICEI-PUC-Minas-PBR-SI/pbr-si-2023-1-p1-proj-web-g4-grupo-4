@@ -6,7 +6,10 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Ricardo Alves tem 34 anos, formado em direito e trabalha como delegado. Quando era criança seus pais passaram por algumas dificuldades para conseguir criá-lo, então agora que tem uma boa condição de vida ele pretende não só dar conforto para sua mulher e seus dois filhos, mas também ajudar aqueles que necessitam desse cuidado,  por meio de doações. Como não tem muito tempo disponível em sua rotina, está à procura de uma ferramenta em que consiga facilitar a conexão entre ele e essas pessoas carentes.
+1- Ricardo Alves tem 34 anos, formado em direito e trabalha como delegado. Quando era criança seus pais passaram por algumas dificuldades para conseguir criá-lo, então agora que tem uma boa condição de vida ele pretende não só dar conforto para sua mulher e seus dois filhos, mas também ajudar aqueles que necessitam desse cuidado,  por meio de doações. Como não tem muito tempo disponível em sua rotina, está à procura de uma ferramenta em que consiga facilitar a conexão entre ele e essas pessoas carentes.
+
+2- Ronaldo Neves tem 44 anos, fundador de uma empresa de tecnologia. Como sua empresa vem crescendo cada vez mais, ele resolveu abrir uma filial em Belo Horizonte, com um grande número de atendimentos acabou-se gerando um grande número de lixo eletrônico. Como Ronaldo sempre teve uma preocupação especial com o meio ambiente, mas como não conhece a região, ele está em busca de meios para realizar o descarte correto desses materiais.
+
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 

@@ -18,18 +18,11 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Ricardo Alves, usuário do sistema  | Criar uma conta na Lume | Conseguir ter acesso as ONGs com mais rapidez e facilidade otimizando seu tempo|
-|ONG que tem foco em ajudar pessoas carentes   | Se cadastradar na Lume e colocar sua localização  | Aparecerem para as pessoas que procuram esse tipo de doação e, assim, ganhar mais visibilidade e conseguentemente aumentar o recebimento de doações |
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Usuário do sistema (pessoa física) | Criar uma conta na Lume | Ter acesso às ONGs com mais rapidez e facilidade otimizando meu tempo|
+|ONGs, instituições, associações e entidades sem fins lucrativos | Se cadastrar na Lume e colocar sua localização | Aparecerem para as pessoas que procuram esse tipo de doação e, assim, ganhar mais visibilidade e conseguentemente aumentar o recebimento de doações |
+|Usuário do sistema (setor corporativo) | Criar uma conta empresarial | Encontrar organizações que realizam descarte de lixo eletrônico e encaminhar os detritos eletrônicos de sua empresa para reciclagem.|
+|Empresa/organização que trabalha com reciclagem de materiais | Cadastrar no sistema e registrar seus dados de contato | Ser encontrada com mais facilidade contribuindo para a sustentabilidade. |
 
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 

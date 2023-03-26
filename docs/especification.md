@@ -1,8 +1,8 @@
 # Especificações do Projeto
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+Com uma pesquisa realizada com diferentes tipos de pessoas, foi concluido que todos que tem costume de realizar qualquer tipo de doações sente uma enorme carência na divugação de ONG’s e intituições de confiança.
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+Com isso foi visto a necessidade da criação de um canal com fontes de informações com diversos tipos de intituições, melhorando a divulgação daqueles que precisam de doação, para aqueles que querem fazer a boa ação.
 
 ## Personas
 

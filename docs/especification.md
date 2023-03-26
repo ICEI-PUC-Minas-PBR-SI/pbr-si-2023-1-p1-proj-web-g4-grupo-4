@@ -1,6 +1,6 @@
 # Especificações do Projeto
 
-Com uma pesquisa realizada com diferentes tipos de pessoas, foi concluido que todos que tem costume de realizar qualquer tipo de doações sente uma enorme carência na divugação de ONG’s e intituições de confiança
+Com uma pesquisa realizada com diferentes tipos de pessoas, foi concluido que todos que tem costume de realizar qualquer tipo de doações sente uma enorme carência na divugação de ONG’s e intituições de confiança.
 
 Com isso foi visto a necessidade da criação de um canal com fontes de informações com diversos tipos de intituições, melhorando a divulgação daqueles que precisam de doação, para aqueles que querem fazer a boa ação.
 

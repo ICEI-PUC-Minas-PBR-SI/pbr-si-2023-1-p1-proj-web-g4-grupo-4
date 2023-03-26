@@ -16,7 +16,7 @@ Uma aplicação web desenvolvida com intuito de otimizar o processo de procura p
 * Marcela Vitória de Oliveira
 * Jennifer Caroline Castro Silva
 * Diogo Evangelista Pacheco
-* Gabriel Hiury Pereira Bernando
+* Gabriel Hiury Pereira Bernardo
 * Gabriel Fernandes Nascimento
 * Álefe de Almeida Sousa
 * Arthur Eduardo da Silva Marins

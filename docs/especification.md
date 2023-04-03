@@ -33,12 +33,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
 |RF-001| A aplicação permitirá a criação de usário. | ALTA |  |
-|RF-002| Permitir o cadastro de instituições e ONG's| ALTA | |
-|RF-003| Aba com apresentação do projeto | ALTA | |
-|RF-004| Divisão de abas por tipo de associação | MÉDIA | |
-|RF-005| O usuário poderá avaliar sua experiência dentro da aplicação| MÉDIA | |
-|RF-006| Envio de confirmação de email | BAIXA | |
-|RF-007| Aba para buscas de organizações | BAIXA | |
+|RF-002| Tela para login do usuário. | ALTA | |
+|RF-003| Permitir o cadastro de instituições e ONG's. | ALTA | |
+|RF-004| Tela inicial com apresentação do projeto. | ALTA | |
+|RF-005| Busca direcionada por nome de instituição. | ALTA | |
+|RF-006| Busca por tipo de instituição. | ALTA| |
+|RF-007|  O usuário poderá avaliar sua experiência dentro da aplicação. | MÉDIA | |
 
 
 ### Requisitos não Funcionais

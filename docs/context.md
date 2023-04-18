@@ -1,5 +1,4 @@
 # Introdução
-
 Uma aplicação web desenvolvida com intuito de otimizar o processo de procura por instituições, organizações não governamentais e ações voltadas para sustentabilidade e doações de acordo com sua necessidade. Assim como, viabilizar o recebimento dessas doações para as mesmas.
 
 ## Problema

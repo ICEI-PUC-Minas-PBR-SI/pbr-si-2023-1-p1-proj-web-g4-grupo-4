@@ -40,7 +40,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-006| Busca por tipo de instituição. | ALTA| |
 |RF-007|  O usuário poderá avaliar sua experiência dentro da aplicação. | MÉDIA | |
 
-(img/casos de usos.jpeg)
+![Casos de uso](docs/img/Casosdeuso.png)
 
 ### Requisitos não Funcionais
 

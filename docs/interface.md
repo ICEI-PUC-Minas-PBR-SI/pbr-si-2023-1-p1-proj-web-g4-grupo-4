@@ -2,7 +2,7 @@
 # Projeto de Interface
 
 ## User Flow
-
+![User Flow](img/userFlow.png)
 ## Wireframes
 
 ![wireframe - homepage](https://user-images.githubusercontent.com/118909482/234714130-7bb1b157-d101-4339-9c74-18c509abb4c7.png)

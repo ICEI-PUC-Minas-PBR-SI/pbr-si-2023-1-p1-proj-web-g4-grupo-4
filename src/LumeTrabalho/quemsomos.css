@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*CSS do Cabeçalho*/
+.fundo-imagem {
+    display: none;
+} 
+
+.logo-image {
+    height: 5em;
+    width: auto;
+    margin-right: 5px;
+
+}
+
+.image {
+    height: 10em;
+    width: auto;
+    margin-right: 5px;
+
+}
+/*CSS do main*/
+
+.divisao{
+    padding: 10px 50px 10px;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    color: black;
+    justify-content: center;
+    
+}
+.descricao{
+    color: black;
+}
+.container {
+    max-width: 1440px;
+    background-color: #FAA143;
+    margin: 0em;
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 132px);
+    padding: 0 30px 30px;
+    background-color: #ffffff;
+}
+
+.container .imagem-titulo {
+    max-width: 300px;
+}
+
+.container .mario {
+    max-width: 40%;
+}
+.container .descricao {
+    color: #a8adb7;
+    width: 85%;
+    font-size: 18px;
+    margin: 30px 0;
+}
+
+.container .botao-trailer {
+    background-color: #FAA143;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    transition: 0.5s all ease-in-out;
+}
+
+.container .botao-trailer:hover {
+    transform: scale(1.1)
+}
+
+.fundo-video {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.fundo-video .video {
+    height: 100vh;
+}
+
+.fundo-video::after {
+    content: "";
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,1) 100%);
+}
+
+.modal {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(52, 52, 50, 0.749);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.conteudo-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    border-radius: 5px;
+    gap: 15px;
+}
+
+.fechar-modal {
+    background-color: #ffffff;
+    color: #f03a17;
+    font-weight: bold;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.modal iframe {
+    border-width: 0;
+    width: 640px;
+    height: 360px;
+}
+
+.modal.aberto {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* CSS referente ao footer, rodapé*/
+footer{
+    background-color: #65B8AE;
+    padding: 50px 0;
+}
+.container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+}
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 700;
+    position: relative;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col ul li{
+    margin: 10px 0;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #cecdcd;
+    padding-left: 10px;
+}
+.footer-col .medias-socias{
+    margin-top: 30px;
+}
+.footer-col .medias-socias a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    border: 1px solid #ffffff;
+    transition: all 0.5s ease;
+}
+.footer-col .medias-socias a i{
+    font-size: 20px;
+}
+
+.footer-col .medias-socias a:hover{
+    color: #65B8AE;
+    background-color: white;
+}
+p{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+
+}
+/* Responsivo */
+@media (max-width: 800px) {
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:600px) {
+    .footer-col{
+        width: 100%;
+    }
+}
+.logoReduzida {
+    height: 60px;
+    width: auto;
+  }

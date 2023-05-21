@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telas Lume</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+  
+  
+  <nav class="navbar bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="imgs/Logo.png" alt="Logo do site" width="80" height="44">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary m-auto">
+                <div class="container-fluid">
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link active" aria-current="page" href="#" id="hom">Home</a>
+                      <a class="nav-link" href="#" id="qmsomos">Quem somos</a>
+                      <a class="nav-link" href="#" id="transf">Transparência</a>
+                      <a class="nav-link" href="#" id="cat">Categorias</a>
+                      <a class="nav-link" href="#" id="cont">Contato</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+              <div><button type="button" class="btn" id="loginbutton">Login</button></div>
+            </div>
+          </nav>
+         <div class="mt-5">
+          <img src=" imgs/icon - Trash.png" alt="Ícone crianças"  id="iconkids">
+        </div>
+          <h1 class="text-center mt-5" id="kidstext">Meio Ambiente</h1>
+          <h5 class="text mx-5 mb-4" id="contenttext">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, consequuntur blanditiis illum doloribus veniam sunt nam repellendus vero alias hic odio, quas vel praesentium atque voluptates, in saepe placeat numquam?</h5>
+          <div class="container fluid text-center" id="orgbtn">
+            <button type="button" class="fa-solid fa-sliders btn btn-warning mx-2" data-bs-toggle="modal" data-bs-target="#exampleModal"> Filtros</button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                    <h3 class="modal-title fs-5" id="exampleModalLabel">Distância</h3>
+                  <div class="modal-body">
+                    <label for="customRange1" class="form-label" id="kmum">0 KM</label><label for="customRange1" class="form-label" id="kmdois">500 KM</label>
+                    <input type="range" class="form-range" id="customRange1">
+                  </div>
+                  <h3 class="modal-title fs-5" id="exampleModalLabel">Tipo de Doação</h3>
+                  <div class="modal-body">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="brinquedomark">
+                      <label class="form-check-label" for="flexCheckDefault" id="brinquedo">
+                        Brinquedo
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="fraldamark" checked>
+                      <label class="form-check-label" for="flexCheckChecked"  id="fralda">
+                        Fralda
+                      </label>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="alimentomark">
+                        <label class="form-check-label" for="flexCheckDefault" id="alimento">
+                          Alimento
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="roupamark" checked>
+                        <label class="form-check-label" for="flexCheckChecked" id="roupa">
+                          Roupa
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="sapatomark">
+                        <label class="form-check-label" for="flexCheckDefault" id="sapato">
+                          Sapato
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="utensiliosmark" checked>
+                        <label class="form-check-label" for="flexCheckChecked" id="utensilios">
+                          Utensílios Domésticos
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="roupadecamamark">
+                        <label class="form-check-label" for="flexCheckDefault" id="roupadecama">
+                          Roupa de Cama
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="dinheiromark" checked>
+                        <label class="form-check-label" for="flexCheckChecked" id="dinheiro">
+                          Dinheiro
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Aplicar Filtros</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button type="button" class="fa-solid fa-clock-rotate-left btn btn-warning mx-2"> Recente</button>
+            <button type="button" class="fa-regular fa-bookmark btn btn-warning mx-2"> Salvos</button>
+
+
+
+
+          </div>
+
+<div class="container fluid">
+  <div href="#" class="instcard card btn mt-5 mx-auto" style="max-width: 540px;">
+    <div  class="row g-0">
+    <div class="col-md-4">
+      <img src="imgs2/indefinido.png" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8 btn-primary">
+      <div class="card-body ">
+        <h5 class="card-title">Lorem ipsum dolor sit.</h5>
+        <p class="card-text text-body-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, veniam.</p>
+        <div id="cardbtn">
+          <a href="#"><i class="text-end link-secondary fa-regular fa-bookmark"></i></a>         <a href="#"><i class="link-secondary fa-solid fa-share-nodes"></i></a>            <a href="#"><i class="link-secondary fa-solid fa-ellipsis-vertical"></i></a> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="instcard card btn mt-5 mx-auto" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="imgs2/indefinido.png" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Lorem, ipsum dolor.</h5>
+        <p class="card-text text-body-secondary">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <div id="cardbtn"> 
+          <a href="#"><i class="text-end link-secondary fa-regular fa-bookmark"></i></a>         <a href="#"><i class="link-secondary fa-solid fa-share-nodes"></i></a>            <a href="#"><i class="link-secondary fa-solid fa-ellipsis-vertical"></i></a>  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="instcard card btn mt-5 mx-auto" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="imgs2/indefinido.png" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+        <p class="card-text text-body-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div id="cardbtn"> 
+          <a href="#"><i class="text-end link-secondary fa-regular fa-bookmark"></i></a>         <a href="#"><i class="link-secondary fa-solid fa-share-nodes"></i></a>            <a href="#"><i class="link-secondary fa-solid fa-ellipsis-vertical"></i></a>  
+        </div>
+      </div>
+    </div>
+  </div>
+</div><div class="instcard mb-5 card btn mt-5 mx-auto" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="imgs2/indefinido.png" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Lorem ipsum dolor sit.</h5>
+        <p class="card-text text-body-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, quidem.</p>
+        <div id="cardbtn"> 
+          <a href="#"><i class="text-end link-secondary fa-regular fa-bookmark"></i></a>         <a href="#"><i class="link-secondary fa-solid fa-share-nodes"></i></a>            <a href="#"><i class="link-secondary fa-solid fa-ellipsis-vertical"></i></a> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+          
+<footer>
+  <div class="container-footer">
+      <div class="row-footer">
+
+          <!-- footer col-->
+          <div class="footer-col">
+          <img class="logoReduzida" src="imgs/LogoReduzida.png" alt="Logo Reduzida">
+          </div>
+          <!--end footer col-->
+
+          <!-- footer col-->
+          <div class="footer-col">
+              <h4>Mapa do Site</h4>
+              <ul>
+                  <li><a href="#"> Home </a></li>
+                  <li><a href="quemsomos.html"> Quem somos </a></li>
+                  <li><a href="#"> Transparência </a></li>
+                  <li><a href="#"> Categorias </a></li>
+                  <li><a href="#"> Contatos </a></li>
+              </ul>
+          </div>
+          <!--end footer col-->
+
+          <!-- footer col-->
+          <div class="footer-col">
+              <h4> Redes Sociais </h4>
+
+              <div class="medias-socias">
+                  <a href="#"> <i class="fa fa-facebook"></i> </a>
+                  <a href="#"> <i class="fa fa-instagram"></i> </a>
+                  <a href="#"> <i class="fa fa-twitter"></i> </a>
+                  <a href="#"> <i class="fa fa-linkedin"></i> </a>
+              </div>
+          </div>
+          <!--end footer col-->
+
+          <div class="footer-col">
+              <h4>Lorem Ipsum</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                  Eum ab dolorum aspernatur, doloremque eveniet modi vel velit culpa similique! 
+                  Repellendus in ullam velit est quod.</p>
+          </div>
+      </div>
+  </div>
+</footer>
+
+<script src="https://kit.fontawesome.com/245e22571e.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -5,40 +5,33 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
-
-
-/*CSS do Cabeçalho*/
-.fundo-imagem {
-    display: none;
-} 
-
-.logo-image {
-    height: 5em;
-    width: auto;
-    margin-right: 5px;
-
+/* CSS cabeçalho*/
+#hom{
+    color: #5AB0A6;
+font-family: 'Montserrat';
+}
+#qmsomos{
+color: #5AB0A6;
+font-family: 'Montserrat';
+}
+#transf{
+    font-family: 'Montserrat';
+    color: #5AB0A6;
+}
+#cat{
+    font-family: 'Montserrat';
+    color: #5AB0A6;
+}
+#cont{
+    font-family: 'Montserrat';
+    color: #5AB0A6;
+}
+#loginbutton {
+    background-color: #FAA143;
 }
 
-.image {
-    height: 10em;
-    width: auto;
-    margin-right: 5px;
+/*CSS main*/
 
-}
-/*CSS do main*/
-
-.divisao{
-    padding: 10px 50px 10px;
-    display: flex;
-    align-items: center;
-    background-color: #ffffff;
-    color: black;
-    justify-content: center;
-    
-}
-.descricao{
-    color: black;
-}
 .container {
     max-width: 1440px;
     background-color: #FAA143;
@@ -54,7 +47,7 @@
     max-width: 300px;
 }
 
-.container .mario {
+.container .imgcrianca {
     max-width: 40%;
 }
 .container .descricao {
@@ -64,7 +57,7 @@
     margin: 30px 0;
 }
 
-.container .botao-trailer {
+.container .botao-home {
     background-color: #FAA143;
     color: #ffffff;
     padding: 15px;
@@ -76,76 +69,30 @@
     transition: 0.5s all ease-in-out;
 }
 
-.container .botao-trailer:hover {
+.container .botao-home:hover {
     transform: scale(1.1)
 }
 
-.fundo-video {
-    position: absolute;
-    z-index: -1;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
+.container-md {
     display: flex;
-    justify-content: center;
-}
+    justify-content: space-between;
+  }
+  .text-box {
 
-.fundo-video .video {
-    height: 100vh;
-}
-
-.fundo-video::after {
-    content: "";
-    height: 100vh;
-    width: 100vw;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,1) 100%);
-}
-
-.modal {
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    background-color: rgba(52, 52, 50, 0.749);
-    opacity: 0;
-    visibility: hidden;
-}
-
-.conteudo-modal {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
-    border-radius: 5px;
-    gap: 15px;
-}
-
-.fechar-modal {
-    background-color: #ffffff;
-    color: #f03a17;
-    font-weight: bold;
-    font-size: 20px;
-    width: 40px;
+    width: 30%;
     text-align: center;
-    cursor: pointer;
-    border-radius: 10px;
-}
-
-.modal iframe {
-    border-width: 0;
-    width: 640px;
-    height: 360px;
-}
-
-.modal.aberto {
-    opacity: 1;
-    visibility: visible;
-}
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .title-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .title-icon i {
+    margin-right: 30px;
+  }
 
 /* CSS referente ao footer, rodapé*/
 footer{

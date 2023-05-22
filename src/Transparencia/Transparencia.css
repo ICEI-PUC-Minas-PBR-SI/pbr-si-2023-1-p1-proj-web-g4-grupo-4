@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+/* CSS cabeçalho*/
+#hom{
+    color: #5AB0A6;
+font-family: 'Montserrat';
+}
+#qmsomos{
+color: #5AB0A6;
+font-family: 'Montserrat';
+}
+#transf{
+    font-family: 'Montserrat';
+    color: #5AB0A6;
+}
+#cat{
+    font-family: 'Montserrat';
+    color: #5AB0A6;
+}
+#cont{
+    font-family: 'Montserrat';
+    color: #5AB0A6;
+}
+#loginbutton {
+    background-color: #FAA143;
+}
+
+/*CSS main*/
+
+.container {
+    max-width: 1440px;
+    background-color: #FAA143;
+    margin: 0em;
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 132px);
+    padding: 0 30px 30px;
+    background-color: #ffffff;
+}
+
+.container .imagem-titulo {
+    max-width: 500px;
+}
+
+.container .imgcrianca {
+    max-width: 40%;
+}
+.container .descricao {
+    color: #a8adb7;
+    width: 85%;
+    font-size: 18px;
+    margin: 30px 0;
+}
+
+.container .botao-home {
+    background-color: #FAA143;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    transition: 0.5s all ease-in-out;
+}
+
+.container .botao-home:hover {
+    transform: scale(1.1)
+}
+
+/* CSS referente ao footer, rodapé*/
+footer{
+    background-color: #65B8AE;
+    padding: 50px 0;
+}
+.container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+}
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 700;
+    position: relative;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col ul li{
+    margin: 10px 0;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #cecdcd;
+    padding-left: 10px;
+}
+.footer-col .medias-socias{
+    margin-top: 30px;
+}
+.footer-col .medias-socias a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    border: 1px solid #ffffff;
+    transition: all 0.5s ease;
+}
+.footer-col .medias-socias a i{
+    font-size: 20px;
+}
+
+.footer-col .medias-socias a:hover{
+    color: #65B8AE;
+    background-color: white;
+}
+p{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+
+}
+/* Responsivo */
+@media (max-width: 800px) {
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:600px) {
+    .footer-col{
+        width: 100%;
+    }
+}
+.logoReduzida {
+    height: 60px;
+    width: auto;
+  }

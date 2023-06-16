@@ -324,23 +324,17 @@ border-radius: 2px;
     
 }
 
-
+#ong1{
+   margin-top: 80px;
+}
+#ong2{
+    margin-top: 5px;
+ }
 
 
 #cardbtn{
     margin-left: 250px;
 }
-
-.instcard {
-    transition-duration: 0.4s;
-  }
-  
-  .instcard:hover {
-    background-color: #65B8AE; /* Green */
-    color: white;
-  }
-
-
 
 
 /* CSS referente ao footer, rodapé*/

@@ -158,3 +158,23 @@ iframe{
  width: 400px;
     }
 }
+
+/* P1 */
+#ong_p1{
+    display: block;
+    margin-left: 350px;
+    margin-top: 50px;
+    margin-right: right;
+    max-width: 350px;
+    height: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+#ong_p3{
+    display: block;
+    margin-left: 330px;
+    margin-top: 10px;
+    margin-right: right;
+    max-width: 350px;
+    height: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}

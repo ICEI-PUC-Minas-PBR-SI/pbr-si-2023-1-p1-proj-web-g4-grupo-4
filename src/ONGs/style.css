@@ -159,7 +159,7 @@ iframe{
     }
 }
 
-/* P1 */
+/* Ajudes das imagens das ongs */
 #ong_p1{
     display: block;
     margin-left: 350px;
@@ -172,6 +172,15 @@ iframe{
 #ong_p3{
     display: block;
     margin-left: 330px;
+    margin-top: 10px;
+    margin-right: right;
+    max-width: 350px;
+    height: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+#ong_p18{
+    display: block;
+    margin-left: 80px;
     margin-top: 10px;
     margin-right: right;
     max-width: 350px;

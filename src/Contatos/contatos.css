@@ -47,6 +47,7 @@ section{
     background: #FAA143;
     width: 500px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    border-radius: 16px;
 }
 section h2{
     color: #f5f5f5;
@@ -132,7 +133,7 @@ form button:hover{
 }
 /* CSS referente ao footer, rodapé*/
 footer{
-    background-color: #65B8AE;
+    background-color: #FAA143;
     padding: 50px 0;
 }
 .container-footer{

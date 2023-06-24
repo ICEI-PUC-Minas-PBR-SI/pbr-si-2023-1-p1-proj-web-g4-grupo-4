@@ -444,4 +444,17 @@ p {
         text-align: center;
         align-items: center;
     }
+    #loginbutton {
+        background-color: #FAA143;
+        width: 133px;
+    height: 38px;
+    left: 1207px;
+    top: 76px;
+    border-radius: 98px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+    font-size: 22.5939px;
+    }
 }

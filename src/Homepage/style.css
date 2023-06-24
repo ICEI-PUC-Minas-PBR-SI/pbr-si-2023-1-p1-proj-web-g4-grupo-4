@@ -15,97 +15,14 @@
     transform: translate(-50%, -50%);
     text-align: center;
     align-items: center;
+    justify-content: space-around;
+    width: 100%;
 }
-
-
-@media screen and (max-width: 768px) {
-    .container-carrossel {
-        position: relative;
-        width: 100%;
-        /* Defina a largura desejada */
-    }
-    
-    .imagem-fundo {
-        width: 100%;
-        height: auto;
-    }
-    
-    .sobreposicao {
-        position: absolute;
-        top: 10%;
-        /* Ajuste a posição vertical do elemento de sobreposição */
-        left: 50%;
-        /* Ajuste a posição horizontal do elemento de sobreposição */
-        transform: translate(-50%, -50%);
-        text-align: center;
-        align-items: center;
-    }
-    
-
-
-    .search-bar {
-        display: flex;
-        align-items: center;
-        max-width: 300px;
-        margin: 20px auto;
-        padding: 8px;
-        background-color: #f1f1f1;
-        border-radius: 20px;
-    }
-
-    .search-bar input[type="text"] {
-        flex-grow: 1;
-        border: none;
-        background: none;
-        outline: none;
-    }
-
-    .search-bar button {
-        border: none;
-        background: none;
-        outline: none;
-        cursor: pointer;
-        margin-left: 8px;
-    }
-
-    .search-bar button img {
-        width: 20px;
-        height: 20px;
-    }
-
-    .section-colun {
-        width: 100%;
-        padding: 0;
-    }
-
-    .card-container-section {
-        justify-content: center;
-    }
-
-    .card-section {
-        width: 100%;
-    }
-
-    .container-section {
-        padding: 20px;
-    }
-
-    .footer-col {
-        width: 50%;
-        margin-bottom: 30px;
-        text-align: center;
-    }
-}
-
-
 
 .section-colun {
     margin-bottom: 20px;
 }
 
-
-
-/* minha parte */
 .logo-image {
     height: 5em;
     width: auto;
@@ -125,18 +42,17 @@
 .container-comotransformamos {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    height: 500px;
+    justify-content: space-around;
     align-items: center;
     background-color: #65B8AE;
-    padding: 50px;
+    padding: 15%;
 }
 
 .laranja {
     background-color: #FAA143;
     align-items: center;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 15%;
 }
 
 .borda-section {
@@ -184,33 +100,7 @@
     padding: 40px;
 }
 
-@media screen and (max-width: 600px) {
-    .card {
-        width: 100%;
-    }
-    .container-carrossel {
-        position: relative;
-        width: 100%;
-        /* Defina a largura desejada */
-    }
-    
-    .imagem-fundo {
-        width: 100%;
-        height: auto;
-    }
-    
-    .sobreposicao {
-        position: absolute;
-        top: 10%;
-        /* Ajuste a posição vertical do elemento de sobreposição */
-        left: 50%;
-        /* Ajuste a posição horizontal do elemento de sobreposição */
-        transform: translate(-50%, -50%);
-        text-align: center;
-        align-items: center;
-    }
-    
-}
+
 
 .section-colun {
     width: 50%;
@@ -314,63 +204,9 @@ p {
 
 }
 
-/* Responsivo */
-@media (max-width: 800px) {
-    .footer-col {
-        width: 50%;
-        margin-bottom: 30px;
-    }
-    .container-carrossel {
-        position: relative;
-        width: 100%;
-        /* Defina a largura desejada */
-    }
-    
-    .imagem-fundo {
-        width: 100%;
-        height: auto;
-    }
-    
-    .sobreposicao {
-        position: absolute;
-        top: 10%;
-        /* Ajuste a posição vertical do elemento de sobreposição */
-        left: 50%;
-        /* Ajuste a posição horizontal do elemento de sobreposição */
-        transform: translate(-50%, -50%);
-        text-align: center;
-        align-items: center;
-    }
-    
-}
 
-@media (max-width:600px) {
-    .footer-col {
-        width: 100%;
-    }
-    .container-carrossel {
-        position: relative;
-        width: 100%;
-        /* Defina a largura desejada */
-    }
-    
-    .imagem-fundo {
-        width: 100%;
-        height: auto;
-    }
-    
-    .sobreposicao {
-        position: absolute;
-        top: 10%;
-        /* Ajuste a posição vertical do elemento de sobreposição */
-        left: 50%;
-        /* Ajuste a posição horizontal do elemento de sobreposição */
-        transform: translate(-50%, -50%);
-        text-align: center;
-        align-items: center;
-    }
-    
-}
+
+
 
 .logoReduzida {
     height: 60px;
@@ -433,4 +269,179 @@ p {
 
     font-size: 13px;
     color: black;
+}
+
+@media screen and (max-width: 768px) {
+    .container-carrossel {
+        position: relative;
+        width: 100%;
+        /* Defina a largura desejada */
+    }
+
+    .imagem-fundo {
+        width: 100%;
+        height: auto;
+    }
+
+    .sobreposicao {
+        position: absolute;
+        top: 10%;
+        /* Ajuste a posição vertical do elemento de sobreposição */
+        left: 50%;
+        /* Ajuste a posição horizontal do elemento de sobreposição */
+        transform: translate(-50%, -50%);
+        text-align: center;
+        align-items: center;
+    }
+
+
+
+    .search-bar {
+        display: flex;
+        align-items: center;
+        max-width: 300px;
+        margin: 20px auto;
+        padding: 8px;
+        background-color: #f1f1f1;
+        border-radius: 20px;
+    }
+
+    .search-bar input[type="text"] {
+        flex-grow: 1;
+        border: none;
+        background: none;
+        outline: none;
+    }
+
+    .search-bar button {
+        border: none;
+        background: none;
+        outline: none;
+        cursor: pointer;
+        margin-left: 8px;
+    }
+
+    .search-bar button img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .section-colun {
+        width: 100%;
+        padding: 15%;
+    }
+
+    .card-container-section {
+        justify-content: center;
+    }
+
+    .card-section {
+        width: 100%;
+    }
+
+    .container-section {
+        padding: 20px;
+    }
+
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}
+
+/* Responsivo */
+@media (max-width: 800px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .container-carrossel {
+        position: relative;
+        width: 100%;
+        /* Defina a largura desejada */
+    }
+
+    .imagem-fundo {
+        width: 100%;
+        height: auto;
+    }
+
+    .section-colun {
+        width: 100%;
+        padding: 0;
+        }
+
+    .sobreposicao {
+        position: absolute;
+        top: 10%;
+        /* Ajuste a posição vertical do elemento de sobreposição */
+        left: 50%;
+        /* Ajuste a posição horizontal do elemento de sobreposição */
+        transform: translate(-50%, -50%);
+        text-align: center;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        width: 100%;
+    }
+
+    .container-carrossel {
+        position: relative;
+        width: 100%;
+        /* Defina a largura desejada */
+    }
+
+    .imagem-fundo {
+        width: 100%;
+        height: auto;
+    }
+
+    .sobreposicao {
+        position: absolute;
+        top: 10%;
+        /* Ajuste a posição vertical do elemento de sobreposição */
+        left: 50%;
+        /* Ajuste a posição horizontal do elemento de sobreposição */
+        transform: translate(-50%, -50%);
+        text-align: center;
+        align-items: center;
+
+    }
+
+    .section-colun {
+        width: 100%;
+        padding: 0;
+    }
+
+    .footer-col {
+        width: 100%;
+    }
+
+    .container-carrossel {
+        position: relative;
+        width: 100%;
+        /* Defina a largura desejada */
+    }
+
+    .imagem-fundo {
+        width: 100%;
+        height: auto;
+    }
+
+    .sobreposicao {
+        position: absolute;
+        top: 10%;
+        /* Ajuste a posição vertical do elemento de sobreposição */
+        left: 50%;
+        /* Ajuste a posição horizontal do elemento de sobreposição */
+        transform: translate(-50%, -50%);
+        text-align: center;
+        align-items: center;
+    }
 }

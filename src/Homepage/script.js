@@ -1,3 +1,31 @@
+//se inscreva
+greetings = () => {
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  const email = urlParams.get("email");
+
+  if (email) alert("Bem vindo " + email + "!");
+};
+
+saveContact = (event) => {
+  event.preventDefault();
+  const email = document.querySelector("#contact-email").value;
+
+  const contacts = JSON.parse(localStorage.getItem("contacts") || "[]");
+
+  const contactAlreadyExists = contacts.find((contact) => contact === email);
+
+  if (contactAlreadyExists) {
+    alert("Contato já cadastrado, desnecessario recadastro!");
+    return;
+  }
+
+  contacts.push(email);
+  localStorage.setItem("contacts", JSON.stringify(contacts));
+};
+
+//rolagem para categorias
+
 document.addEventListener('DOMContentLoaded', function() {
     // Encontra todos os links de categorias
     var categoriasLinks = document.querySelectorAll('a.categoria-link');

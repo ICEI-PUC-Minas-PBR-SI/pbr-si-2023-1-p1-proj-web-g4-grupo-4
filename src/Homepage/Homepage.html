@@ -13,7 +13,7 @@
             crossorigin="anonymous"
         >
     </head>
-    <body>
+    <body onload="greetings()">
         <header>
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -317,12 +317,12 @@
                                     <b>Se inscreva!</b>
                                 </h2>
                                 <p class="p2">Caso esteja interessado em ajudar, se inscreva aqui!</p>
-                                <form action="/src/Cadastro/cadastro.html" method="POST">
+                                <form onsubmit="saveContact(event);">
                                     <div class="form-group">
                                         <input
                                             type="email"
                                             name="email"
-                                            id="email"
+                                            id="contact-email" 
                                             placeholder="Insira seu e-mail"
                                             required
                                             class="form-control col-8"

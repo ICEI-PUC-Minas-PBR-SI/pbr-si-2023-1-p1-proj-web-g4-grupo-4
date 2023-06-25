@@ -63,6 +63,7 @@ font-family: 'Montserrat';
     max-width: 40%;
 }
 .container .descricao {
+    text-transform: none;
     color: #a8adb7;
     width: 85%;
     font-size: 18px;

@@ -44,6 +44,7 @@ font-family: 'Montserrat';
 /*CSS main*/
 
 .container {
+    text-transform: none;
     font-family: 'Montserrat';
     max-width: 1440px;
     background-color: #FAA143;
@@ -54,6 +55,9 @@ font-family: 'Montserrat';
     padding: 0 30px 30px;
     background-color: #ffffff;
 }
+.container-md .text-box .text-black{
+    text-transform: none;
+}
 
 .container .imagem-titulo {
     max-width: 300px;
@@ -63,6 +67,7 @@ font-family: 'Montserrat';
     max-width: 40%;
 }
 .container .descricao {
+    text-transform: none;
     color: #a8adb7;
     width: 85%;
     font-size: 18px;

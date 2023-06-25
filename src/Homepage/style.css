@@ -71,7 +71,8 @@
     background-color: #FAA143;
     align-items: center;
     text-align: center;
-    padding-top: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .borda-section {
@@ -112,6 +113,7 @@
     border-radius: 8px;
     padding: 20px;
     box-sizing: border-box;
+    height: 450px;
 
 }
 
@@ -313,7 +315,15 @@ p {
         align-items: center;
     }
 
-
+    .container-comotransformamos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #65B8AE;
+        padding: 15%;
+    }
+    
 
     .search-bar {
         display: flex;
@@ -356,6 +366,14 @@ p {
 
     .card-section {
         width: 100%;
+        margin-bottom: 20px;
+        background-color: #f2f2f2;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 20px;
+        box-sizing: border-box;
+        height: 700px;
+    
     }
 
     .container-section {

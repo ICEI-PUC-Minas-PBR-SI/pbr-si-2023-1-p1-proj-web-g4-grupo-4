@@ -28,11 +28,23 @@ font-family: 'Montserrat';
 }
 #loginbutton {
     background-color: #FAA143;
+    width: 133px;
+    height: 38px;
+    left: 1207px;
+    top: 76px;
+    border-radius: 98px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+    font-size: 22.5939px;
+    color: #FFFFFF;
 }
 
 /*CSS main*/
 
 .container {
+    font-family: 'Montserrat';
     max-width: 1440px;
     background-color: #FAA143;
     margin: 0em;

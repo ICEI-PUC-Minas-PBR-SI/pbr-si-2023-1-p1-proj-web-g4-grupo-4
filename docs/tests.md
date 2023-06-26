@@ -1,8 +1,6 @@
 # Plano de Testes de Software
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
-
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
+Para a realização do teste selecionamos 5 pessoas entre 18 e 30 anos que não tinham nenhum conhecimento sobre a aplicação, apresentamos o projeto e disponibilizamos para que pudessem testar todas as ferramentas, telas e funcionalidades da aplicação. Alem disso foi testado por todos os integrantes do grupo.
  
 # Registro de Testes de Software
 
@@ -18,7 +16,5 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 
 ## Avaliação
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+Os testes foram considerados satisfatórios, comprovando permitir aos usuários efetuar cadastro e Login, de forma simples e rápida, evitando que cadastros sejam feitos repetidamente. Também comprovou que é possível navegar pela aplicação de forma ágil e indicativa.
 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)

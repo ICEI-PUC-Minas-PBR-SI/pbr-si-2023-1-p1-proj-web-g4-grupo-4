@@ -400,6 +400,9 @@ footer{
 .footer-col .medias-socias a i{
     font-size: 20px;
 }
+.descriptionfooter{
+    text-transform: none;
+}
 
 .footer-col .medias-socias a:hover{
     color: #65B8AE;

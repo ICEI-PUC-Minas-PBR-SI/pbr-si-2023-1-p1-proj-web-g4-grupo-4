@@ -54,49 +54,49 @@
                   <h3 class="modal-title fs-5" id="exampleModalLabel">Tipo de Doação</h3>
                   <div class="modal-body">
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" value="" id="brinquedomark">
+                      <input class="form-check-input" type="checkbox" value="brinquedo" id="brinquedomark">
                       <label class="form-check-label" for="flexCheckDefault" id="brinquedo">
                         Brinquedo
                       </label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" value="" id="fraldamark" checked>
-                      <label class="form-check-label" for="flexCheckChecked"  id="fralda">
+                      <input class="form-check-input" type="checkbox" value="fralda" id="fraldamark" >
+                      <label class="form-check-label" for="flexCheckDefault"  id="fralda">
                         Fralda
                       </label>
                       <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="alimentomark">
+                        <input class="form-check-input" type="checkbox" value="alimento" id="alimentomark">
                         <label class="form-check-label" for="flexCheckDefault" id="alimento">
                           Alimento
                         </label>
                       </div>
                       <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="roupamark" checked>
-                        <label class="form-check-label" for="flexCheckChecked" id="roupa">
+                        <input class="form-check-input" type="checkbox" value="roupa" id="roupamark" >
+                        <label class="form-check-label" for="flexCheckDefault" id="roupa">
                           Roupa
                         </label>
                       </div>
                       <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="sapatomark">
+                        <input class="form-check-input" type="checkbox" value="sapato" id="sapatomark">
                         <label class="form-check-label" for="flexCheckDefault" id="sapato">
-                          Sapato
+                          Calçados
                         </label>
                       </div>
                       <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="utensiliosmark" checked>
-                        <label class="form-check-label" for="flexCheckChecked" id="utensilios">
+                        <input class="form-check-input" type="checkbox" value="utensilios-domesticos" id="utensiliosmark" >
+                        <label class="form-check-label" for="flexCheckDefault" id="utensilios">
                           Utensílios Domésticos
                         </label>
                       </div>
                       <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="roupadecamamark">
+                        <input class="form-check-input" type="checkbox" value="roupa-de-cama" id="roupadecamamark">
                         <label class="form-check-label" for="flexCheckDefault" id="roupadecama">
                           Roupa de Cama
                         </label>
                       </div>
                       <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="dinheiromark" checked>
-                        <label class="form-check-label" for="flexCheckChecked" id="dinheiro">
+                        <input class="form-check-input" type="checkbox" value="dinheiro" id="dinheiromark" >
+                        <label class="form-check-label" for="flexCheckDefault" id="dinheiro">
                           Dinheiro
                         </label>
                       </div>
@@ -104,7 +104,7 @@
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                    <button type="button" class="btn btn-primary">Aplicar Filtros</button>
+                    <button type="button" class="btn btn-primary" type="submit" onclick="greetings()">Aplicar Filtros</button>
                   </div>
                 </div>
               </div>
@@ -117,7 +117,7 @@
 
           </div>
 
-<div class="container fluid">
+<div class="container fluid" id= "ongs-filter"> </div>
   <div class="instcard card mt-5 mx-auto" style="max-width: 540px;">
     <div  class="row g-0">
     <div class="col-md-4">
@@ -257,5 +257,6 @@
 
 <script src="https://kit.fontawesome.com/245e22571e.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>

@@ -1,99 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="contatos.css">
-    <link rel="stylesheet" href="contatos.css">
-    <title>Contatos</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-</head>
-<body>
-    <nav class="navbar bg-body-tertiary">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="img/Logo.png" alt="Logo do site" width="80" height="44">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary m-auto">
-                <div class="container-fluid">
-                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                      <a class="nav-link active" aria-current="page" href="/src/Homepage/Homepage.html" id="hom">Home</a>
-                      <a class="nav-link" href="/src/QuemSomos/quemsomosof.html" id="qmsomos">Quem somos</a>
-                      <a class="nav-link" href="/src/Transparencia/Transparencia.html" id="transf">Transparência</a>
-                      <a class="nav-link" href="/src/Homepage/Homepage.html#SectionCategorias" id="cat">Categorias</a>
-                      <a class="nav-link" href="/src/Contatos/contatos.html" id="cont">Contato</a>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="contatos.css">
+        <link rel="stylesheet" href="contatos.css">
+        <title>Contatos</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+            crossorigin="anonymous"
+        >
+    </head>
+    <body>
+        <nav class="navbar bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img
+                        src="img/Logo.png"
+                        alt="Logo do site"
+                        width="80"
+                        height="44"
+                    >
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary m-auto">
+                        <div class="container-fluid">
+                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                <div class="navbar-nav">
+                                    <a
+                                        class="nav-link active"
+                                        aria-current="page"
+                                        href="/src/Homepage/Homepage.html"
+                                        id="hom"
+                                    >Home</a>
+                                    <a class="nav-link" href="/src/QuemSomos/quemsomosof.html" id="qmsomos">Quem somos</a>
+                                    <a class="nav-link" href="/src/Transparencia/Transparencia.html" id="transf">Transparência</a>
+                                    <a class="nav-link" href="/src/Homepage/Homepage.html#SectionCategorias" id="cat">Categorias</a>
+                                    <a class="nav-link" href="/src/Contatos/contatos.html" id="cont">Contato</a>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                    <div>
+                        <a href="/src/Cadastro/cadastro.html" class="ms-5 badge rounded-pill" id="loginbutton">Login</a>
                     </div>
-                  </div>
                 </div>
-              </nav>
-              <div>
-                <a href="/src/Cadastro/cadastro.html" class="ms-5 badge rounded-pill" id="loginbutton">Login</a>
-              </div>
-            </div>
-          </nav>
-   <main style="padding: 5%;">
-    <section >
-        <h2>Entre em contato</h2>
-        <form action="https://api.staticforms.xyz/submit" method="post">
-            <label>Nome</label>
-            <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
-            <label>Email</label>
-            <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
-            <label>Mensagem</label>
-            <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
-            <button type="submit">Enviar</button>
-            
-            <input type="hidden" name="accessKey" value="8b3e36c3-919a-4531-802f-a5be1d0be9a2">
-            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/LumeTrabalho/obrigado.html">
-        </form>
-    </section>
-   </main>
-   <footer class="">
-    <div class="container-footer">
-        <div class="row-footer">
-
-            <!-- footer col-->
-            <div class="footer-col">
-            <img class="logoReduzida" src="img/Logo-Reduzida-Branco.png" alt="Logo Reduzida">
-            </div>
-            <!--end footer col-->
-
-            <!-- footer col-->
-            <div class="footer-col">
-                <h4>Mapa do Site</h4>
-                <ul>
-                    <li><a href="/src/Homepage/Homepage.html"> Home </a></li>
-                    <li><a href="/src/QuemSomos/quemsomosof.html"> Quem somos </a></li>
-                    <li><a href="/src/Transparencia/Transparencia.html"> Transparência </a></li>
-                    <li><a href="#"> Categorias </a></li>
-                    <li><a href="/src/Contatos/contatos.html"> Contatos </a></li>
-                </ul>
-            </div>
-            <!--end footer col-->
-
-            <!-- footer col-->
-            <div class="footer-col">
-                <h4> Redes Sociais </h4>
-
-                <div class="medias-socias">
-                    <a href="#"> <i class="fa fa-facebook"></i> </a>
-                    <a href="#"> <i class="fa fa-instagram"></i> </a>
-                    <a href="#"> <i class="fa fa-twitter"></i> </a>
-                    <a href="#"> <i class="fa fa-linkedin"></i> </a>
-                </div>
-            </div>
-            <!--end footer col-->
-
-            <div class="footer-col">
-                <h4>Lorem Ipsum</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            </nav>
+            <main style="padding: 5%;">
+                <section>
+                    <h2>Entre em contato</h2>
+                    <form action="https://api.staticforms.xyz/submit" method="post">
+                        <label>Nome</label>
+                        <input
+                            type="text"
+                            name="name"
+                            placeholder="Digite seu nome"
+                            autocomplete="off"
+                            required
+                        >
+                        <label>Email</label>
+                        <input
+                            type="email"
+                            name="email"
+                            placeholder="Digite seu email"
+                            autocomplete="off"
+                            required
+                        >
+                        <label>Mensagem</label>
+                        <textarea
+                            name="message"
+                            cols="30"
+                            rows="10"
+                            placeholder="Digite sua mensagem"
+                            required
+                        ></textarea>
+                        <button type="submit">Enviar</button>
+                        <input type="hidden" name="accessKey" value="8b3e36c3-919a-4531-802f-a5be1d0be9a2">
+                        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/LumeTrabalho/obrigado.html">
+                    </form>
+                </section>
+            </main>
+            <footer class="">
+                <div class="container-footer">
+                    <div class="row-footer">
+                        <!-- footer col-->
+                        <div class="footer-col">
+                            <img class="logoReduzida" src="img/Logo-Reduzida-Branco.png" alt="Logo Reduzida">
+                        </div>
+                        <!--end footer col-->
+                        <!-- footer col-->
+                        <div class="footer-col">
+                            <h4>Mapa do Site</h4>
+                            <ul>
+                                <li>
+                                    <a href="/src/Homepage/Homepage.html"> Home</a>
+                                </li>
+                                <li>
+                                    <a href="/src/QuemSomos/quemsomosof.html"> Quem somos</a>
+                                </li>
+                                <li>
+                                    <a href="/src/Transparencia/Transparencia.html"> Transparência</a>
+                                </li>
+                                <li>
+                                    <a href="#"> Categorias</a>
+                                </li>
+                                <li>
+                                    <a href="/src/Contatos/contatos.html"> Contatos</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--end footer col-->
+                        <!-- footer col-->
+                        <div class="footer-col">
+                            <h4> Redes Sociais</h4>
+                            <div class="medias-socias">
+                                <a href="#">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!--end footer col-->
+                        <div class="footer-col">
+                            <h4>Lorem Ipsum</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                     Eum ab dolorum aspernatur, doloremque eveniet modi vel velit culpa similique! 
-                    Repellendus in ullam velit est quod.</p>
-            </div>
-        </div>
-    </div>
-   </footer>
-</body>
-</html>
+                    Repellendus in ullam velit est quod.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <script src="script.js"></script>
+        </body>
+    </html>

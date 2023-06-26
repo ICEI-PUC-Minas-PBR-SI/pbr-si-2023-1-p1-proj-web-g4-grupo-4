@@ -207,6 +207,12 @@ p{
     font-weight: 400;
 
 }
+
+input.error,
+textarea.error {
+  border-color: red;
+}
+
 /* Responsivo */
 @media (max-width: 800px) {
     .footer-col{

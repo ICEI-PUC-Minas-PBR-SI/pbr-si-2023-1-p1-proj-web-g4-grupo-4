@@ -38,9 +38,10 @@
     color: #65B8AE;
     background-color: white;
 }
+
 p{
     font-size: 16px;
-    text-transform: capitalize;
+    text-transform: none;
     color: white;
     text-decoration: none;
     font-weight: 400;

@@ -91,7 +91,10 @@
     color: black;
     font-size: small;
 }
-
+#cards_text{
+    Text-transform: none;
+    text-align: center;
+}
 
 
 .card-container-section {
@@ -119,6 +122,20 @@
 
 .container-section {
     padding: 40px;
+}
+
+#loginbutton {
+    background-color: #FAA143;
+    width: 133px;
+height: 38px;
+left: 1207px;
+top: 76px;
+border-radius: 98px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+line-height: 28px;
+font-size: 22.5939px; 
 }
 
 

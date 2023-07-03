@@ -24,11 +24,13 @@ greetings = () => {
     const userAlreadyExists = users.find((user) => user.email === email);
   
     if (userAlreadyExists && userAlreadyExists.password === password) {
+      localStorage.setItem('usuarioLogado', JSON.stringify({email: userAlreadyExists.email}));
       window.location.href = "/src/Homepage/Homepage.html?email=" + email;
     } else {
       alert("Usuário ou senha inválidos");
     }
   };
+  
   
   register = (event) => {
     event.preventDefault();

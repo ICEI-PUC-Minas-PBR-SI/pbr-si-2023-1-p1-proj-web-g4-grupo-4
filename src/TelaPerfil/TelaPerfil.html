@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <link rel="stylesheet" href="style.css"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/src/lume_categorias/lume_categorias/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <title>Lume</title>
+    
+    </head>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="/src/ONGs/imgs/Logo.png" alt="Logo do site" width="80" height="44">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary m-auto">
+                <div class="container-fluid">
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link active" aria-current="page" href="/src/Homepage/Homepage.html" id="hom">Home</a>
+                      <a class="nav-link" href="/src/QuemSomos/quemsomosof.html" id="qmsomos">Quem somos</a>
+                      <a class="nav-link" href="/src/Transparencia/Transparencia.html" id="transf">Transparência</a>
+                      <a class="nav-link" href="/src/Homepage/Homepage.html#SectionCategorias" id="cat">Categorias</a>
+                      <a class="nav-link" href="/src/Contatos/contatos.html" id="cont">Contato</a>
+
+                    </div>
+                  </div>
+                </div>
+              </nav>
+              <div>
+                <head>
+                    <style>
+                    .profile-image {
+                      width: 60px;
+                      height: 60px;
+                      border-radius: 90%;
+                      object-fit: cover;
+                    }
+                    </style>
+                    </head>
+                    <body>
+                    
+                    <img id="profile-img" class="profile-image" src="/src/ONGs/imgs/img_ong_2.webp" alt="Foto de perfil">
+                    
+                    </body>
+              </div>
+          </nav>
+    
+    <br><br />
+    
+    <body>
+        <main>
+            <!-- Tela de perfil -->    
+            <div class="container">
+                <div class="row">
+                  <h1>Perfil da Empresa</h1>
+                </div>
+                  <form id="form-contato">
+                    <div class="form-group row">
+                        <div class="col-sm-8">
+                            <label id="picademacho" for="inputNome">Nome da Empresa (*)</label>
+                            <input type="text" class="form-control" id="inputNome" required placeholder="Informe o nome da empresa" disabled>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                      <div class="col-sm-8">
+                          <label for="inputSobrenome">Itens para doação (*)</label>
+                          <input type="text" class="form-control" id="inputSobrenome" required placeholder="Informe aqui os itens" disabled>
+                      </div>
+                    </div>
+                    
+                    <div class="form-group row">
+                      <div class="col-sm-7">
+                          <label for="inputEmail">Sobre sua empresa</label>
+                          <input type="email" class="form-control" id="inputEmail" required placeholder="Conte-nos sobre sua empresa" disabled>
+                      </div>
+                    </div>
+                  
+          
+                    <div class="form-group row">
+                        <div class="col-sm-4">
+                            <small>(*) Campos obrigatórios</small>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-group row id=botoes">
+                        <div class="col-sm-12">
+                            <input type="button" class="btn btn-success" id="btnInsert" value="Salvar">
+                            <input type="button" class="btn btn-light" id="btnUpdate" value="Alterar">
+                        </div>
+                    </div>
+                </form>
+              </div>
+            <script src="/src/TelaPerfil/script.js"></script>
+            <script>
+              function teste() {
+                var nome = document.getElementById('picademacho');
+
+
+              }
+            </script>
+          </main>
+    <br>
+    <footer class="">
+      <div class="container-footer">
+          <div class="row-footer">
+              <!-- footer col-->
+              <div class="footer-col">
+                  <img class="logoReduzida" src="/src/lume_categorias/lume_categorias/imgs/LogoReduzida.png" alt="Logo Reduzida">
+              </div>
+              <!--end footer col-->
+              <!-- footer col-->
+              <div class="footer-col">
+                  <h4>Mapa do Site</h4>
+                  <ul>
+                      <li>
+                          <a href="/src/Homepage/Homepage.html"> Home</a>
+                      </li>
+                      <li>
+                          <a href="/src/QuemSomos/quemsomosof.html"> Quem somos</a>
+                      </li>
+                      <li>
+                          <a href="/src/Transparencia/Transparencia.html"> Transparência</a>
+                      </li>
+                      <li>
+                          <a href="#"> Categorias</a>
+                      </li>
+                      <li>
+                          <a href="/src/Contatos/contatos.html"> Contatos</a>
+                      </li>
+                  </ul>
+              </div>
+              <!--end footer col-->
+              <!-- footer col-->
+              <div class="footer-col">
+                  <h4> Redes Sociais</h4>
+                  <div class="medias-socias">
+                      <a href="#">
+                          <i class="fa fa-facebook"></i>
+                      </a>
+                      <a href="#">
+                          <i class="fa fa-instagram"></i>
+                      </a>
+                      <a href="#">
+                          <i class="fa fa-twitter"></i>
+                      </a>
+                      <a href="#">
+                          <i class="fa fa-linkedin"></i>
+                      </a>
+                  </div>
+              </div>
+              <!--end footer col-->
+              <div class="footer-col">
+                  <h4>Lume</h4>
+                  <p class="descriptionfooter"> Buscamos construir um mundo mais justo e inclusivo, onde cada pessoa possa contribuir para causas que faça parte de seus valores. Junte-se a nós nessa jornada de transformação social e faça parte da mudança que gostaria de ver no mundo</p>
+              </div>
+          </div>
+      </div>
+  </footer>
+</body>
+</html>
+
+
+

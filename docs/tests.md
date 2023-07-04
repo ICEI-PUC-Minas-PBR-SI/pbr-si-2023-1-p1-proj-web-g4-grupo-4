@@ -1,28 +1,20 @@
 # Plano de Testes de Software
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
-
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
+Para a realização do teste selecionamos 5 pessoas entre 18 e 30 anos que não tinham nenhum conhecimento sobre a aplicação, apresentamos o projeto e disponibilizamos para que pudessem testar todas as ferramentas, telas e funcionalidades da aplicação. Alem disso foi testado por todos os integrantes do grupo.
  
-## Ferramentas de Testes (Opcional)
-
-Comente sobre as ferramentas de testes utilizadas.
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
-
 # Registro de Testes de Software
 
-Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
+|Teste    | Condição | Resultado Esperado | Resultado Obtido |
+|------|-----------------------------------------|----| ----|
+|Botão de categorias| Clicar no botão de Categorias. | Tela rolar até onde se encontram todas as categorias de ONGs. | Tela rolar até onde se encontram todas as categorias de ONGs. |
+|Cadastro| Entrada do cadastro: Nome da Empresa: Lume; Email: lume@lume.com.br; senha: Lume123. | Mensagem : Bem vindo lume@lume.com.br! | Mensagem : Bem vindo lume@lume.com.br! |
+|Cadastro com empresa já cadastrada| Entrada do cadastro: Nome da Empresa: Lume; Email: lume@lume.com.br; senha: Lume123. | Mensagem: Usuário já cadastrada, por favor tente outro email | Mensagem: Usuário já cadastrada, por favor tente outro email |
+|Login| Entrada do Login: Email: lume@lume.com.br; senha: Lume123. | Mensagem : Bem vindo lume@lume.com.br! | Mensagem : Bem vindo lume@lume.com.br! |
+|Login com dados invalidos| Entrada do Login: Email: lume@lume.com.br; senha: 123456. | Mensagem: Usuário ou senha inválidos. | Mensagem: Usuário ou senha inválidos. |
+|Tela Contato| Entrada: Nome: Lume;  Email: lume@lume.com.br; Mensagem: Teste. | Mensagem: Formulário enviado com sucesso! | Mensagem: Formulário enviado com sucesso! |
+|Filtro Tela de Categoria| Checkbox marcada: "Dinheiro". | Ongs que se adequam ao filtro são exibidas primeiro. | Ongs que se adequam ao filtro são exibidas primeiro. |
 
 ## Avaliação
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+Os testes foram considerados satisfatórios, comprovando permitir aos usuários efetuar cadastro e Login, de forma simples e rápida, evitando que cadastros sejam feitos repetidamente. Também comprovou que é possível navegar pela aplicação de forma ágil e indicativa.
 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)

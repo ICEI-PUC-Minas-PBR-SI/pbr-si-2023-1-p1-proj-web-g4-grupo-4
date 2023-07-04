@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body>
+<body onload="greetings()">
     <div class="container">
 
         <!-- mensagem da tela de login que alterna com a de cadastro -->
@@ -24,19 +24,19 @@
             <div class="form-content">
                 <div class="login-form">
                     <div class="title">Login</div>
-                    <form action="/Homepage/Homepage.html">
+                    <form onsubmit="authenticate(event);">
                         <div class="input-boxes">
 
                             <div class="input-box">
                                 <i class="fas fa-envelope"></i>
-                                <input type="text" placeholder="Digite seu email" required>
+                                <input type="text" placeholder="Digite seu email" id="login-email" name="email" required />
                             </div>
                             <div class="input-box">
                                 <i class="fas fa-lock"></i>
-                                <input type="password" placeholder="Digite sua senha" required>
+                                <input type="password" placeholder="Digite sua senha" id="login-password" name="password" required />
                             </div>
                             <div class="text"><a href="#">Esqueceu a senha?</a></div>
-                            <div class="button input-box" href="/Homepage/Homepage.html">
+                            <div class="button input-box" href="/src/TelaPerfil/TelaPerfil.html">
                                 <input type="submit" value="Entrar">
                             </div>
                             <div class="text sign-up-text">Não tem uma conta? <label for="flip">Inscreva-se
@@ -49,22 +49,22 @@
                 <!-- conteúdo do formulario de cadastro-->
                 <div class="signup-form">
                     <div class="title">Criar conta</div>
-                    <form action="/Homepage/Homepage.html">
+                    <form id="register" onsubmit="register(event);">
                         <div class="input-boxes">
 
                             <div class="input-box">
                                 <i class="fas fa-user"></i>
-                                <input type="text" placeholder="Digite o nome da empresa" required>
+                                <input type="text" placeholder="Digite o nome da empresa" id="register-enterprise" name="entreprise" required />
                             </div>
                             <div class="input-box">
                                 <i class="fas fa-envelope"></i>
-                                <input type="text" placeholder="Digite o email" required>
+                                <input type="text" placeholder="Digite o email" id="register-email" name="email" required />
                             </div>
                             <div class="input-box">
                                 <i class="fas fa-lock"></i>
-                                <input type="password" placeholder="Digite sua senha" required>
+                                <input type="password" placeholder="Digite sua senha" id="register-password" name="password" required />
                             </div>
-                            <div class="button input-box" href="/Homepage/Homepage.html">
+                            <div class="button input-box" href="/src/TelaPerfil/TelaPerfil.html">
                                 <input type="submit" value="Cadastrar">
                             </div>
 
@@ -77,6 +77,8 @@
             </div>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 
-</html>
+</html> 

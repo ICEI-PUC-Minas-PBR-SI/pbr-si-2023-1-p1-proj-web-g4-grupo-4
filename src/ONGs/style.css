@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
 .footer-col ul li{
     margin: 10px 0;
 }
@@ -37,9 +38,10 @@
     color: #65B8AE;
     background-color: white;
 }
+
 p{
     font-size: 16px;
-    text-transform: capitalize;
+    text-transform: none;
     color: white;
     text-decoration: none;
     font-weight: 400;
@@ -114,6 +116,7 @@ p{
     margin-right: 10px;
     display: inline-block;
   }
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
   .custom-button {
     background-color: #EFD239;
     text-align: center;
@@ -131,12 +134,6 @@ p{
     justify-content: center;
     font-family: "Montserrat", sans-serif;
   }
-
-
-
-
-
-
 
 iframe{
 
@@ -156,4 +153,52 @@ iframe{
     iframe{
  width: 400px;
     }
+}
+
+/* Ajudes das imagens das ongs */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+#ong_p1{
+    display: block;
+    margin-left: 270px;
+    margin-top: 30px;
+    margin-right: right;
+    max-width: 400px;
+    height: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+#ong_p3{
+    display: block;
+    margin-left: 270px;
+    margin-top: 10px;
+    margin-right: right;
+    max-width: 350px;
+    height: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+#ong_p18{
+    display: block;
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-right: right;
+    max-width: 350px;
+    height: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+#ong_p4{
+    display: block;
+    margin-left: 180px;
+    margin-top: 10px;
+    margin-right: right;
+    max-width: 350px;
+    height: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+#ong_p5{
+    display: block;
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-right: right;
+    max-width: 350px;
+    height: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
